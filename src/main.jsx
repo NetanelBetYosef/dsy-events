@@ -7,7 +7,7 @@ import StoreContextProvider from "./context/StoreContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter> {/* Use HashRouter for GitHub Pages */}
+    <HashRouter>
       <StoreContextProvider>
         <App />
       </StoreContextProvider>
