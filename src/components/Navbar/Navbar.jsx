@@ -9,14 +9,6 @@ const Navbar = () => {
   const [menu, setMenu] = useState("menu");
   const { getTotalCartAmount } = useContext(StoreContext);
 
-  // Smooth scroll function
-  const smoothScroll = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="navbar" id="navbar">
       <Link to="/" onClick={() => setMenu("home")}>
