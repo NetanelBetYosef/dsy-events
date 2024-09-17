@@ -17,12 +17,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { HashRouter, BrowserRouter } from "react-router-dom"; // Switched to HashRouter
+import { HashRouter } from "react-router-dom"; // Switched to HashRouter
 import StoreContextProvider from "./context/StoreContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter> {/* Use HashRouter for GitHub Pages */}
+    <HashRouter basename="/"> {/* Use HashRouter for GitHub Pages */}
       <StoreContextProvider>
         <App />
       </StoreContextProvider>

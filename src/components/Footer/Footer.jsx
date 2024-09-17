@@ -17,11 +17,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="footer-content-center">
-            <h2>קישור מהיר</h2>
-            <ul>
-                <li><a href="/">עמוד הבית</a></li>
-                <li><a href="#explore-menu">תפריט</a></li>
-            </ul>
+
         </div>
         <div className="footer-content-right">
             <h2>צרו קשר</h2>
